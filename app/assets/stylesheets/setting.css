@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  height:70px;
+  background-color: blue;
+  width:100%;
+}
+
+.title a{
+  color:red;
+  
+}
+
+
+.user_in{
+  float:right;
+}
+
+.user_out{
+  float:right;
+}
+
+.content{
+  text-align: center;
+  border:solid 1px #0000ff;
+  margin:0 20px 10px 20px;
+  font-size: 20px;
+  font-weight:bold;
+  padding:30px 0;
+}
+
+.container{
+  text-align: center;
+  font-size:30px;
+}
+
+textarea{
+  height:200px;
+  width:400px;
+  font-size:20px;
+}
+
+.user_in a{
+  color:red;
+}

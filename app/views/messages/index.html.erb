@@ -1,0 +1,6 @@
+<div class = "content">
+  <% @messages.each do |message|%>
+    <%= render partial: "message",locals: {message: message} %>
+  <% end %>
+  <%= paginate(@messages)%>
+</div>

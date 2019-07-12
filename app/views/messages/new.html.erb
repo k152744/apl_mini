@@ -1,0 +1,9 @@
+<div class="contents">
+  <div class = "container">
+    <%= form_tag('/messages', method: :post) do %>
+      <h3>投稿する</h3>
+      <textarea name="text" placeholder="text"></textarea>
+      <input type="submit" value="SENT">
+    <% end %>
+  </div>
+</div>
